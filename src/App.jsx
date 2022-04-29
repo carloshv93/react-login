@@ -7,18 +7,16 @@ import Protected from "./pages/Protected/Protected";
 
 function App() {
   return (
-    <>
-      <BrowserRouter>
-        <Header />
-        <section className="page-content">
-          <Routes>
-            <Route path="/" element={<Homepage />} />
-            <Route path="/login" element={<Login />} />
-            <Route path="/protected" element={<Protected />} />
-          </Routes>
-        </section>
-      </BrowserRouter>
-    </>
+    <BrowserRouter>
+      <Header />
+      <section className="page-content">
+        <Routes>
+          <Route path="/" element={<Homepage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/protected" element={<Protected />} />
+        </Routes>
+      </section>
+    </BrowserRouter>
   );
 }
 
