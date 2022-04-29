@@ -1,0 +1,13 @@
+.header{
+    background-color: cadetblue;
+    display: flex;
+    height: 8vh;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header a {
+    color:white;
+    margin-right: 1rem;
+    text-decoration: none;
+}
